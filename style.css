@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-container{
+    /* border: 2px solid red; */
+
+    background-color: powderblue;
+    color: darkgreen;
+    text-align: center;
+}
+
+.nav-brand{
+    height: 5rem;
+    font-size: 2.5rem;
+    padding-top: 5px;
+}
+
+.nav-brand img{
+    width: 30px;
+}
+
+.header{
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.header img{
+    width: 7rem;
+}
+
+.main{
+    max-width: 80vw;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.main textarea{
+    height: 12rem;
+    width: 27rem;
+    margin-top: 25px;
+}
+
+#txt-op{
+    width: 27rem;
+    height: 12rem;
+    border: 1px solid black;
+}
+
+.btn-translate{
+    display: block;
+    background-color: yellow;
+}
+
+.input-container,
+.output-container {
+    display: inline-block;
+    vertical-align: top; /* Align elements vertically at the top */
+    font-size: 16px; /* Reset font-size to avoid affecting child elements */
+    margin: 10px; /* Adjust spacing as needed */
+}
