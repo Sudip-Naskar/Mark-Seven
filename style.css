@@ -10,13 +10,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .nav-container {
     /* border: 2px solid red; */
 
-    background-color: powderblue;
-    color: darkgreen;
+    background-color: #b0e0e6;
+    color: #006400;
     text-align: center;
 }
 
@@ -66,11 +67,16 @@ body {
     font-size: medium;
     font-weight: bold;
     padding: 1rem 2rem;
-    background-color: powderblue;
+    background-color: #b0e0e6;
     display: block;
-    margin: auto;
+    margin: 2rem auto;
     cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
 
+}
+
+#btn-translate:hover{
+    background-color: rgba(145, 184, 187, 0.933)
 }
 
 .input-container,
@@ -88,7 +94,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: powderblue;
+    background-color: #b0e0e6;
     padding: 10px 0;
     text-align: center;
     align-items: center;
@@ -108,5 +114,5 @@ body {
 }
 
 .para p{
-    margin-top: 0.5rem;
+    margin: 0.5rem 0rem;
 }
