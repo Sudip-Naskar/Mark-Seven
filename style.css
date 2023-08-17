@@ -12,7 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-container{
+.nav-container {
     /* border: 2px solid red; */
 
     background-color: powderblue;
@@ -20,52 +20,93 @@ body {
     text-align: center;
 }
 
-.nav-brand{
+.nav-brand {
     height: 5rem;
     font-size: 2.5rem;
     padding-top: 5px;
 }
 
-.nav-brand img{
+.nav-brand img {
     width: 30px;
 }
 
-.header{
-   text-align: center;
-   margin-top: 1rem;
+.header {
+    text-align: center;
+    margin-top: 1rem;
 }
 
-.header img{
+.header img {
     width: 7rem;
 }
 
-.main{
+.main {
     max-width: 80vw;
     margin: 1rem auto;
     text-align: center;
 }
 
-.main textarea{
+.main textarea {
     height: 12rem;
-    width: 27rem;
+    width: 30vw;
     margin-top: 25px;
+    padding: 1rem;
 }
 
-#txt-op{
-    width: 27rem;
+#txt-op {
+    width: 30vw;
     height: 12rem;
     border: 1px solid black;
+    padding: 1rem;
 }
 
-.btn-translate{
+#btn-translate {
+    border: none;
+    font-family:'Montserrat', sans-serif;
+    font-size: larger;
+    font-size: medium;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    background-color: powderblue;
     display: block;
-    background-color: yellow;
+    margin: auto;
+    cursor: pointer;
+
 }
 
 .input-container,
 .output-container {
     display: inline-block;
-    vertical-align: top; /* Align elements vertically at the top */
-    font-size: 16px; /* Reset font-size to avoid affecting child elements */
-    margin: 10px; /* Adjust spacing as needed */
+    vertical-align: top;
+    /* Align elements vertically at the top */
+    font-size: 16px;
+    /* Reset font-size to avoid affecting child elements */
+    margin: 10px;
+    /* Adjust spacing as needed */
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: powderblue;
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.footer-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.para{
+    display: block;
+    margin: auto;
+    max-width: 60vw;
+}
+
+.para p{
+    margin-top: 0.5rem;
 }
